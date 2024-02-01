@@ -1,5 +1,6 @@
 import { Button, Container, Form } from "react-bootstrap";
 import { useState, useEffect } from "react";
+import ItemColor from "./ItemColor";
 
 
 const FromularioColores = () => {
@@ -47,6 +48,8 @@ const FromularioColores = () => {
         </Form.Group>
         
       </Form>
+      <ItemColor colores={colores} borrarColor={borrarColor}></ItemColor>
+     
       </Container>
    
    
