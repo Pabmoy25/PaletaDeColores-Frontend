@@ -8,8 +8,8 @@ const FromularioColores = () => {
     const coloresLocalStorage = JSON.parse(localStorage.getItem('listaColores')) || []
     const [colores, setColores]= useState(coloresLocalStorage);
     const borrarColor = (nombreColor)=>{
-        const coloresFiltrados =colores.filter((color)=> color!== nombreColor);
-        setColores(coloresFiltrados);
+        const copiaColor =colores.filter((color)=> color!== nombreColor);
+        setColores(copiaColor);
     }
 
     useEffect(

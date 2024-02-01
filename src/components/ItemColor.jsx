@@ -1,4 +1,4 @@
-import { Card, Container } from "react-bootstrap";
+import { Card, Container, Button } from "react-bootstrap";
 
 const ItemColor = (props) => {
   return (
@@ -16,9 +16,11 @@ const ItemColor = (props) => {
                 margin: "10px 0",
               }}
             ></div>
+            <Button className="ml-auto" variant="danger" onClick={()=>props.borrarColor(elementoColor)}>Delete</Button>
           </Card.Body>
         </Card>
       ))}
+      
     </Container>
   );
 };
