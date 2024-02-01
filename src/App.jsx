@@ -8,8 +8,8 @@ function App() {
   
   return (
     <>
-    <Container className='my-4 mainpage'>
-    <h1 className='text-center display-3'>List the color</h1>
+    <Container className='my-5 mainpage'>
+    <h1 className='text-center display-2'>List the color</h1>
      <FromularioColores></FromularioColores>
      </Container>
      
