@@ -1,4 +1,4 @@
-# TP React - Ejercicio 6 - Paleta de Colores
+# TP React & Backend - Paleta de Colores
 
 ## Descripcion
 
